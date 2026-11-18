@@ -26,6 +26,24 @@ Requirements: Node.js 18+ and Python 3.10+.
 
 The API creates `resolveai.db` and seeds simulated customer, transaction, refund, and support records the first time it starts.
 
+## Screenshots
+
+### Homepage
+
+![ResolveAI homepage](docs/screenshots/resolveai-homepage.png)
+
+### Dashboard
+
+![ResolveAI dashboard](docs/screenshots/resolveai-dashboard.png)
+
+### Transactions
+
+![ResolveAI transactions](docs/screenshots/resolveai-transactions.png)
+
+### AI assistant
+
+![ResolveAI AI assistant](docs/screenshots/resolveai-assistant.png)
+
 ## Optional Sarvam AI
 
 Copy `.env.example` to `.env` and set `SARVAM_API_KEY` on the backend host. The key is read only by FastAPI and is never sent to the browser. `SARVAM_MODEL` defaults to Sarvam's supported `sarvam-105b-conversations` chat model. `VITE_API_BASE_URL` sets the frontend API URL and defaults to `http://127.0.0.1:8001/api`. Restart FastAPI and Vite after changing environment configuration.
